@@ -11,3 +11,10 @@ git remote add github https://github.com/paul-stubley/first_web_app.git
 git remote show
 git push github master  
 ```
+
+## Running locally (WIP)
+
+Before pushing the app to Heroku, it can be run locally with the addition of a line in the worldbank.py file:
+```
+app.run(host='0.0.0.0', port=3001, debug=True)
+```
